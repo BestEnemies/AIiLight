@@ -6,8 +6,6 @@ A way to think of the colour temperature is how 'warm' or 'cool' the white LED l
 > The human eye is excellent at adjusting to different colour temperatures, which means that to you and me objects appear roughly the same colour whether they're outside in the sun or indoors under a lightbulb.
 (Source: <http://www.photographymad.com/pages/view/what-is-colour-temperature>)
 
-RGB LED's aren't as good at adapting as our human eye, and as a result they produce colours that may appear unnatural or even incorrect.
-
 ## How to use
 The AiLight firmware contains two ways of setting the light's colour temperature; the first one is using the built-in Web UI and the second one is using Home Assistant.
 
