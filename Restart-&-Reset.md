@@ -1,5 +1,5 @@
 ## Restart
-In case you believe your Ai-Thinker RGBW Light isn't operating properly, you can restarting it by clicking the 'RESTART' button in the right top hand corner of the Web UI.
+In case you believe your Ai-Thinker RGBW Light isn't operating properly, you can restart it by clicking the 'RESTART' button in the right top hand corner of the Web UI.
 
 Restarting the Ai-Thinker RGBW Light will take roughly 15 seconds.
 
