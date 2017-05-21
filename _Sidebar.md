@@ -1,0 +1,1 @@
+[[Colour Temperature|https://github.com/stelgenhof/AiLight/wiki/Colour-Temperature]]
