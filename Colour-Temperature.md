@@ -12,6 +12,8 @@ Setting the colour temperature of your Ai-Thinker RGBW Light can be done in 3 di
 1. AiLight Web UI
 To set the colour temperature, simply move the colour temperature slider to the desired value.
 
+![AiLight - Light Controles](images/ailight_light.png)
+
 2. Home Assistant
 For setting the temperature in Home Assistant, it is assumed the appropriate configuration in Home Assistant is done. Click on your light's icon to have the configuration panel opened. Next, simply move the colour temperature slider to the desired value.
 
