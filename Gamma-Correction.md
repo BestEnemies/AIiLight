@@ -4,4 +4,6 @@ To compensate for this, a process called Gamma Correction can be applied to the 
 
 The AiLight firmware contains an option to apply Gamma Correction to your Ai-Thinker RGBW Light. You can simply enable or disable this option in the 'Light' page of the Web UI.
 
+![AiLight - Light Controls](images/ailight_light.png)
+
 (Reference: <https://en.wikipedia.org/wiki/Gamma_correction>)
