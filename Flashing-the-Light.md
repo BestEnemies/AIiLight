@@ -1,6 +1,32 @@
-The AiLight firmware has a feature that allows you to flash the light (i.e switch it on and off at a particular interval). At the moment it can only be activated by sending a specific instruction to the MQTT command topic and works differently than the Home Assistant flash feature.
+The AiLight firmware has a feature that allows you to flash the light (i.e switch it on and off at a particular interval). It can only be used by either sending a specific instruction to the MQTT command topic or using the Home Assistant automation component.
 
-The instruction to have the light flash is quite simple. Just provide the length in seconds and the colour you like the light to be flashing:
+## How to use
+
+### 1. Home Assistant
+Using Home Assistant's Automation component, you can have your Ai-Thinker RGBW Light flash by a specified trigger and certain conditions. For example, why not let your Ai-Thinker RGBW Light flash if somebody presses the button of your Smart Doorbell:
+
+``` YAML
+automation:
+  - alias: 'Flash the light when front doorbell pressed'
+    initial_state: 'on'
+    trigger:
+      - platform: state
+        entity_id: binary_sensor.doorbell
+        from: 'off'
+        to: 'on'
+    action:
+      - service: light.toggle
+        data:
+          entity_id: light.ailight_office
+          flash: long
+          color: [255, 0, 0]
+```
+This will make your Ai-Thinker RGBW Light flash the colour red for 10 seconds. The 'long' value is a standard Home Assistant value defaults to 10 seconds. There is also a 'short' value which defaults to 5 seconds.
+
+Please check the Home Assistant [Automation](https://home-assistant.io/getting-started/automation/) and [Actions](https://home-assistant.io/docs/automation/action/) documentation pages for more information on how to configure Home Assistant.
+
+### 2. Using MQTT
+You can alternatively flash your Ai-Thinker RGBW Light by publishing an MQTT message to your MQTT broker. To do that, simply send a JSON message to the MQTT Command Topic set for your Ai-Thinker RGBW Light.
 
 Example:
 ``` JSON
