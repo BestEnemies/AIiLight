@@ -1,5 +1,6 @@
 **Getting started**
 * [[What do you need?|Requirements]]
+* [[Home Assistant|Home-Assistant-Configuration]]
 
 **How to use**
 * [[Colour Temperature|Colour-Temperature]]
