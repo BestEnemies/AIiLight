@@ -1,5 +1,5 @@
 :img: wiki
 
-image::{img}/ailight_logo.png[align="center", height="150", float=right]
+image::{img}/images/ailight_logo.png[align="center", height="150", float=right]
 
 Welcome to the AiLight wiki!
