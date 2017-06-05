@@ -2,4 +2,4 @@
 
 image::{img}/images/ailight_logo.png[]
 
-Welcome to the AiLight wiki!
+Welcome to the AiLight wiki! You can find topics in the sidebar on the right.
