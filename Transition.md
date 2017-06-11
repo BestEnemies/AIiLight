@@ -37,7 +37,7 @@ You can alternatively have your Ai-Thinker RGBW Light transition to a new state 
 
 Example:
 ``` JSON
-{"transition":"5", "color": {"r": 255, "g": 255, "b": 0}}
+{"state": "ON", "transition":"5", "color": {"r": 255, "g": 255, "b": 0}}
 ```
 
 This will make your Ai-Thinker RGBW Light switch on to the colour yellow in 5 seconds.
