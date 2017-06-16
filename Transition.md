@@ -6,6 +6,8 @@ Transitioning will change the light's colours by cross fading from the current t
 - If the light is switched off, the Ai-Thinker RGBW Light will cross fade from the off (i.e. '0') to the new settings.
 - In case the new settings are set to '0' or 'OFF', the Ai-Thinker RGBW Light will cross fade from the current colours to the off state.
 
+![AiLight - Transition](images/ailight_trans.png)
+
 The transition feature can only be used by either sending a specific instruction to the MQTT command topic or using the Home Assistant automation component. It is not possible (yet) to set transition via the Web UI.
 
 ## How to use
