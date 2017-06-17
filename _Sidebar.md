@@ -7,7 +7,7 @@
 * [[Flashing the Light|Flashing-the-Light]]
 * [[Gamma Correction|Gamma-Correction]]
 * [[Restart and Reset|Restart-&-Reset]]
-* [[Transition|Transition]]
+* [[Transitions|Transition]]
 
 **Advanced usage**
 * [[Building Environments|]]
