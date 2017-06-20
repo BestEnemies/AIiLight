@@ -1,7 +1,10 @@
 **Getting started**
 * [[What do you need?|Requirements]]
 * [[Connect your Light|Connection]]
-* [[Home Assistant|Home-Assistant-Configuration]]
+* [[Flashing the Firmware|Flashing-the-Firmware]]
+
+**Home Assistant**
+* [[Home-Assistant-Configuration|Home-Assistant-Configuration]]
 
 **How to use**
 * [[Colour Temperature|Colour-Temperature]]
