@@ -2,7 +2,7 @@ Having your Ai-Thinker RGBW Light run using the **AiLight** firmware is quite si
 1. Compiling the firmware
 2. Flashing (i.e uploading) the firmware.
 
-_Before starting, make sure you have all that is [[needed|Requirements]]._
+_Before starting, please make sure you have all that is [[needed|Requirements]]._
 
 ## Compiling the firmware
 
