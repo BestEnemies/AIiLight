@@ -23,7 +23,7 @@ Having your Ai-Thinker RGBW Light run using the **AiLight** firmware is quite si
 5. Click on the "PlatformIO: Build" icon (or issue a "platformio run" command from the PlatformIO terminal).
 
 
-## Flashing (i.e uploading) the firmware
+## Flashing the firmware
 
 If no compilation errors popped up, you can start flashing the firmware to your Ai-Thinker RGBW Light using an FTDI (or alike) programmer. This is, of course, a required step since your Ai-Thinker RGBW Light still has the factory firmware.
 
