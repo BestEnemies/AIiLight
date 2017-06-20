@@ -1,5 +1,6 @@
 **Getting started**
 * [[What do you need?|Requirements]]
+* [[Connect your Light|Connection]]
 * [[Home Assistant|Home-Assistant-Configuration]]
 
 **How to use**
