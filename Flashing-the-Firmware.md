@@ -22,14 +22,19 @@ _Before starting, please make sure you have all that is [[needed|Requirements]].
 
 3. Make a copy of the `platformio.example.ini` file name `platformio.ini`. This PlatformIO configuration doesn't require any changes, however, it is recommended to change the OTA port number and OTA password when using your Ai-Thinker RGBW Light in production. (In that case, don't forget to update the respective variables in your `config.h` file too).
 
-4. Click on the "PlatformIO: Build" icon (or issue a "platformio run" command from the PlatformIO terminal).
+4. Click on the "PlatformIO: Build" icon or issue a `platformio run` command from the PlatformIO terminal.
 
 
 ## Flashing the firmware
 
-If no compilation errors popped up, you can start flashing the firmware to your Ai-Thinker RGBW Light using an FTDI (or alike) programmer. This is, of course, a required step since your Ai-Thinker RGBW Light still has the factory firmware.
+If no compilation errors popped up, you can start flashing the firmware to your Ai-Thinker RGBW Light using an FTDI (or alike) programmer. This is, of course, a required step since your Ai-Thinker RGBW Light still has the original factory firmware.
 
-If the upload of the **AiLight** firmware was successful, it is recommended to restart your Ai-Thinker RGBW Light. This can be done by reconnecting the power of your FTDI programmer.
+1. Connect your FTDI Programmer or AiLight Jig to your PC using an appropriate USB cable.
+2. Click on the "PlatformIO: Upload icon (Arrow pointing to the right) or issue a `platform run --target upload` command from the PlatformIO terminal. Uploading should start automatically as PlatformIO will detect the connected Serial Port itself. Alternatively, you can specify in the `platformio.ini` or at the command line which serial port to use.
+
+_**Note**: If you have trouble making a connection, check if PlatformIO can detect your adapter by clicking "List Serial Ports" in the "PlatformIO" menu. If not, this usually means your cable is not connected or your FTDI driver is not properly installed._
+
+If the upload of the **AiLight** firmware was successful, it is recommended restarting your Ai-Thinker RGBW Light. This can be done by reconnecting the power of your FTDI programmer.
 
 While connected to your FTDI programmer, check the output on your Serial Monitor. You should see some messages appear that will tell you details of the firmware, the device, hostname and the assigned IP address.
 
