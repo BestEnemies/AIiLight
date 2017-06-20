@@ -35,6 +35,6 @@ While connected to your FTDI programmer, check the output on your Serial Monitor
 
 ![AiLight](https://www.sachatelgenhof.nl/user/pages/02.blog/ailight/terminal_030.png)
 
-The same information can be seen in the Web UI (About screen). By default, the Web interface can be accessed via 'http://AiLight-######.local' where '#####' is the unique ID of your Ai-Thinker RGBW Light. If you have changed your hostname, then, of course, the URL is different also.
+The same information can be seen in the Web UI (About screen). By default, the Web UI can be accessed via 'http://AiLight-######.local' where '#####' is the unique identifier of your Ai-Thinker RGBW Light. If you have changed your hostname, then, of course, the URL is different also.
 
-From this point, you can upload newer versions of the firmware via **OTA**. To do that, update the `upload_port` variable in your platformio.ini file with the 'hostname' value from the Serial Monitor / HTML UI. Now you can start using **OTA** to upload any updates of the firmware over the air.
+From this point, you can upload newer versions of the firmware via **OTA**. To do that, update the `upload_port` variable in your platformio.ini file with the 'hostname' value from the Serial Monitor / Web UI. Now you can start using **OTA** to upload any updates of the firmware over the air.
