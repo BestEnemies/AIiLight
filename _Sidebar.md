@@ -6,7 +6,7 @@
 **Home Assistant**
 * [[Home-Assistant-Configuration|Home-Assistant-Configuration]]
 
-**How to use**
+**Using the Web UI**
 * [[Colour Temperature|Colour-Temperature]]
 * [[Flashing the Light|Flashing-the-Light]]
 * [[Gamma Correction|Gamma-Correction]]
