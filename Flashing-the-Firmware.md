@@ -18,9 +18,9 @@ Having your Ai-Thinker RGBW Light run using the **AiLight** firmware is quite si
 
   Other configuration variables can be left as is, however, feel free to adjust as you see fit.
 
-4. Make a copy of the `platformio.example.ini` file name `platformio.ini`. This PlatformIO configuration doesn't require any changes, however, it is recommended to change the OTA port number and OTA password when using your Ai-Thinker RGBW Light in production. (In that case, don't forget to update the respective variables in your `config.h` file too).
+3. Make a copy of the `platformio.example.ini` file name `platformio.ini`. This PlatformIO configuration doesn't require any changes, however, it is recommended to change the OTA port number and OTA password when using your Ai-Thinker RGBW Light in production. (In that case, don't forget to update the respective variables in your `config.h` file too).
 
-5. Click on the "PlatformIO: Build" icon (or issue a "platformio run" command from the PlatformIO terminal).
+4. Click on the "PlatformIO: Build" icon (or issue a "platformio run" command from the PlatformIO terminal).
 
 
 ## Flashing the firmware
