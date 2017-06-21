@@ -1,4 +1,4 @@
-You are up for making your own AiLight Jig? If you have 'making' skills and access to tools and materials, then follow the instructions below. For sure, checkout your local maker space for necessary tools and support!
+You are up for making your own AiLight Jig? If you have 'making' skills and access to tools and materials, then follow the instructions below. For sure, checkout your local maker space for the required equipment and support of others!
 
 ***
 
