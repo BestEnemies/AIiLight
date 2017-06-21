@@ -30,8 +30,13 @@ The **AiLight** Jig consists of 3 laser cut rings made out of MDF: 2 upper rings
 1. Cut out the base parts using a laser cutter: 3 pieces in total are needed, 2 upper elements and 1 lower. The lower element needs to be cut out of wood that has a thickness of at least 2.5mm. The thickness of the upper elements can be larger, however the best is to keep it the same as the lower element.
 2. Clean up the parts - if necessary - with a file and sandpaper. Check the holes for the pogo pins if they are nice and open. If not, use a 1mm drill bit to make them clean.
 3. Glue all the parts together. Insert two pogo pins, so the upper elements are perfectly aligned. Clamp the 3 pieces and wait for the glue to dry.
-4.  
-
+4. Solder the one end of the 5 pieces of electric wire to a pogo pin. Optionally, use a piece of heat shrink to cover the soldered part.
+5. Solder the other end of the wires to the USB/UART adapter. As for the wire colors, it is preferred to use the following
+ - 3V3: Red
+ - GND: Black
+ - TX: Green
+ - RX: Blue
+ - IO0: Orange/Yellow/White
 
 ## Assembly
 1. Carefully insert the pogo pins (5 pieces) in the designated holes of the wooden jig. Some force is required to insert as the holes are designed to make the pins fit tightly. The bottom end of each pogo pin should stick out slightly from the lower ring (about 0.5 mm).
