@@ -10,6 +10,8 @@ Solder wires to the 5 PCB pads and connect these wires to your FTDI (or equivale
 ## Use an AiLight Jig
 The [AiLight Jig](https://www.sachatelgenhof.nl/blog/ailight-jig) is designed specifically for the Ai-Thinker LED RGBW light and allows for uploading custom firmware without soldering any wires to the light’s PCB pads. And, if you have more than one Ai-Thinker LED RGBW light, you can use the jig over and over, saving you a lot of hassle!
 
+![AiLight Jig](images/ailight_jig.png)
+
 - If you'd like to use an AiLight Jig, check out more details [here](https://www.sachatelgenhof.nl/blog/ailight-jig)
 - For those who have tinkering skills and access to a laser cutter, follow these instructions how to make your own AiLight jig.
 
