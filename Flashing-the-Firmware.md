@@ -29,7 +29,7 @@ _Before starting, please make sure you have all that is [[needed|Requirements]].
 
 If no compilation errors popped up, you can start uploading (i.e 'flashing') the firmware to your Ai-Thinker RGBW Light using an FTDI (or alike) programmer. This is, of course, a required step since your Ai-Thinker RGBW Light still has the original factory firmware.
 
-1. Connect your FTDI Programmer or AiLight Jig to your PC using an appropriate USB cable.
+1. Connect your FTDI Programmer or AiLight Jig to your PC using a Micro USB to USB cable.
 2. Click on the "PlatformIO: Upload icon" (Arrow pointing to the right) or issue a `platform run --target upload` command from the PlatformIO terminal. Uploading should start automatically as PlatformIO will detect the connected Serial Port itself. Alternatively, you can manually specify in the `platformio.ini` or at the command line which serial port you want use.
 
 _**Note**: If you have trouble making a connection, check if PlatformIO can detect your adapter by clicking "List Serial Ports" in the "PlatformIO" menu. If not, this usually means your cable is not connected or your FTDI driver is not properly installed._
