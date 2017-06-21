@@ -18,8 +18,9 @@ The **AiLight** Jig consists of 3 laser cut rings made out of MDF: 2 upper rings
 - (Optional) Heat shrink, about ~10mm for each pogo pin 
 - Wood Glue (or equivalent)
 - Designs Files:
-  [3D Model](http://a360.co/2rP8FqM) (made with AutoDesk Fusion360)
-  [Lower Component: DXF format](http://a360.co/2szW8da)
+  - [3D Model](http://a360.co/2rP8FqM) (made with AutoDesk Fusion360)
+  - [Lower Element: DXF format](http://a360.co/2szW8da)
+  - [Upper Element: DXF format](http://a360.co/2szY5WR)
 
 ## Tools
 - Laser Cutter
