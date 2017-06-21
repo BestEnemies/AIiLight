@@ -13,6 +13,6 @@
 * [[Restart and Reset|Restart-&-Reset]]
 * [[Transitions|Transition]]
 
-**Advanced usage**
+**Advanced topics**
 * [[Building Environments|]]
 * [[Dependencies|]]
