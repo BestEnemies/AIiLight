@@ -1,1 +1,1 @@
-Connect to the AiLight.
+Connect to the AiLight. [TBD]
