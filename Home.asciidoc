@@ -10,8 +10,10 @@ image::{img}/images/aithinker_light.png[]
 image::https://www.sachatelgenhof.nl/user/pages/02.blog/ailight/screen_combo_m.png[]
 
 So, why a custom firmware?
-- You can add functionality the original manufacturer hasn't thought of (yet)
-- You can integrate with other devices or systems like for example Home Assistant
-- You can ensure it is private (only you know when the lights are on)
-- It is a great project to learn something new... and it is super fun!
+* You can add functionality the original manufacturer hasn't thought of (yet)
+* You can integrate with other devices or systems like for example Home Assistant
+* You can ensure it is private (only you know when the lights are on)
+* It is a great project to learn something new... and it is super fun!
+
+Want to use the *AiLight* firmware as well? Start with the "Getting Started" section on the right...
 
