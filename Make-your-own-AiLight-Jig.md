@@ -1,4 +1,6 @@
-You are up for making your own AiLight Jig? If you have 'making' skills and access to tools and materials, then follow the instructions below. Checkout your local maker space for necessary tools and support.
+You are up for making your own AiLight Jig? If you have 'making' skills and access to tools and materials, then follow the instructions below. For sure, checkout your local maker space for necessary tools and support!
+
+***
 
 The **AiLight** Jig is designed specifically for the Ai-Thinker LED RGBW light. It allows for uploading custom firmware without soldering any wires to the light’s PCB IO and test contacts. 
 
