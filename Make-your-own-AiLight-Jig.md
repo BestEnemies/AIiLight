@@ -38,6 +38,8 @@ The **AiLight** Jig consists of 3 laser cut rings made out of MDF: 2 upper rings
   - TX: Blue
   - IO0: Orange/Yellow/White
 
+**Note**: The IO0 connection needs to be tied to GND, so you can this and the GND wire together at the USB/UART end.
+
 ![AiLight Pin Positions](images/ailight_jig_positions.png)
 
 ## Assembly
