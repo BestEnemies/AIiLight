@@ -13,3 +13,6 @@ What do you need?
 - Glue
 - Clamps
 - Laser Cutter
+
+Assembly
+1. Carefully insert the pogo pins (5 pieces) in the designated holes of the wooden jig. Some force is required to insert as the holes are designed to make the pins fit tightly. The bottom end of each pogo pin should stick out slightly from the lower ring (about 0.5 mm).
