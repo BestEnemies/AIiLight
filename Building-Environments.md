@@ -3,4 +3,4 @@ The PlatformIO configuration contains 4 environments for building and flashing y
 - '**env-dev**': development/debug environment for building and uploading the firmware via the AiLight Jig or an FTDI (or alike) programmer
 - '**env-prod**': production environment (optimized for size) for building and uploading the firmware via the AiLight Jig or an FTDI (or alike) programmer
 
-In addition, for each of these 2 environments, an **OTA** varian is available for uploading the firmware over OTA.
+In addition, for each of these 2 environments, an **OTA** variant is available for uploading the firmware over OTA.
