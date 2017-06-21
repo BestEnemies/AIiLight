@@ -47,7 +47,7 @@ If you passed the previous step successfully, you can upload newer versions of t
 
 To update the **AiLight** firmware via OTA, it is important to make sure that:
 - the `upload_port` variable in your `platformio.ini` configuration file matches the 'hostname' value from the Serial Monitor / Web UI.
-- the `ota_port` variable in your `platformio.ini` configuration file matches `OTA_PORT` variable in your `config.h` file.
+- the `ota_port` variable in your `platformio.ini` configuration file matches 'OTA_PORT' variable in your `config.h` file.
 
 Now you can start using **OTA** to upload any updates of the firmware over the air by either:
 - "Run other target" from the "PlatformIO" menu in Atom, and choose the "PIO Upload dev-ota" or "PIO Upload prod-ota" target, or
