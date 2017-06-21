@@ -20,7 +20,13 @@ This kit consists of two parts: the wooden base and a USB to Serial Adapter (bas
 - Clamps
 - Laser Cutter
 
+## Construction
+
 ## Assembly
 1. Carefully insert the pogo pins (5 pieces) in the designated holes of the wooden jig. Some force is required to insert as the holes are designed to make the pins fit tightly. The bottom end of each pogo pin should stick out slightly from the lower ring (about 0.5 mm).
 
 ![AiLight Pin Positions](images/ailight_jig_positions.png)
+
+2. (Optional). You can attach the USB to UART adapter to the wooden base with a glue gun or a piece of double sided tape. To avoid that the adapter might move when inserted/taking out the USB cable, you can make a small recess on the top. Either use a cutting knife or vile to make the appropriate cut out.
+
+Your AiLight Jig is complete! Next, you can start using it to flash the firmware.
