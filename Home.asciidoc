@@ -2,4 +2,6 @@
 
 image::{img}/images/ailight_logo.png[]
 
-Welcome to the AiLight wiki! You can find topics in the sidebar on the right.
+Welcome to the AiLight wiki! You can find various topics in the sidebar on the right.
+
+image::{img}/images/aithinker_light.png[]
