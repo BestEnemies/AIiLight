@@ -13,7 +13,6 @@ So, why a custom firmware?
 * You can ensure it is private (only you know when the lights are on)
 * It is a great project to learn something new... and it is super fun!
 
-Want to join the fun as well? Head over to the "Getting Started" section on the right...
+Want to join the fun as well? Head over to the "Getting Started" section on the right... and start your tinkering journey!
 
-image::{img}/images/aithinker_light.png[]
 image::https://www.sachatelgenhof.nl/user/pages/02.blog/ailight/screen_combo_m.png[]
