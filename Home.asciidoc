@@ -6,3 +6,5 @@ Welcome to the AiLight wiki! You can find various topics in the sidebar on the r
 
 image::{img}/images/aithinker_light.png[]
 image::https://www.sachatelgenhof.nl/user/pages/02.blog/ailight/screen_combo_m.png[]
+
+AiLight is a custom firmware for the hackable, inexpensive Ai-Thinker RGBW WiFi light bulbs that has an ESP8266 at its core. Ai-Thinker RGBW WiFi light bulbs are being made by a Chinese company called Ai-Thinker and are available across many e-commerce sites like Amazon, eBay, AliExpress, etc.
