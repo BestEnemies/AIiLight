@@ -12,7 +12,7 @@ The [AiLight Jig](https://www.sachatelgenhof.nl/blog/ailight-jig) is designed sp
 
 ![AiLight Jig](images/ailight_jig.png)
 
-_If you'd like to use an AiLight Jig, check out more details [here](https://www.sachatelgenhof.nl/blog/ailight-jig). For those who have tinkering skills and access to a laser cutter, follow these instructions how to make your own AiLight jig._
+_If you'd like to use an AiLight Jig, check out more details [here](https://www.sachatelgenhof.nl/blog/ailight-jig). For those who have tinkering skills and access to a laser cutter, follow [[these|Make-your-own-AiLight-Jig]] instructions how to make your own AiLight jig._
 
 ### Using the AiLight Jig
 1. Before flashing any firmware, please install the CP210x USB to UART driver for your OS first. You can find the drivers and instructions here: [https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
