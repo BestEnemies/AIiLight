@@ -1,8 +1,8 @@
-
-
 The **AiLight** Jig is designed specifically for the Ai-Thinker LED RGBW light. It allows for uploading custom firmware without soldering any wires to the light’s PCB IO and test contacts. 
 
 The Jig consists of 3 laser cut rings made out of MDF: 2 upper rings [1] with designated holes for pogo pins, and a lower ring [2] acting as the base that fits snug into the light’s aluminum housing.
+
+![AiLight Jig](images/ailight_jig.png)
 
 This kit consists of two parts: the wooden base and a USB to Serial Adapter (based on the CP2102 chipset) with pogo pins pre-soldered.
 
