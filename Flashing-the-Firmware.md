@@ -55,7 +55,8 @@ Now you can start using **OTA** to upload any updates of the firmware over the a
   `platformio run --target upload --environment %environment% --upload-port=%hostname%`
   where %environment% is the ota environment ("dev-ota" or "prod-ota") and %hostname% the hostname (or IP address) of your Ai-Thinker RGBW Light bulb.
 
-_Check *** to understand the preconfigured [[Building Environments|]]
+_Checkout the [[Building Environments]] page to understand the preconfigured environments._
+
 PlatformIO will start compiling the firmware and initiating the upload:
 ![AiLight - Terminal OTA Progress](images/ailight_ota_terminal.png)
 
