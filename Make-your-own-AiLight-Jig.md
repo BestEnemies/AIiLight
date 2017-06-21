@@ -10,16 +10,14 @@ The **AiLight** Jig consists of 3 laser cut rings made out of MDF: 2 upper rings
 
 ![AiLight 3D Image](images/ailight_jig_3d.png)
 
-This kit consists of two parts: the wooden base and a USB to Serial Adapter (based on the CP2102 chipset) with pogo pins pre-soldered.
-
 ## Ingredients
 - MDF wood about ~2.5mm thick (other types of wood like plywood is also possible)
 - 5 Pogo Pins 
 - 1 USB to Serial Adapter board (any type should be fine; based on the CP210x chipset is recommended)
-- Electric wires about ~5cm long (AWG24 or smaller is preferred)
+- Electric wires about ~5cm long (AWG24 or AWG26)
 - (Optional) Heat shrink, about ~10mm for each pogo pin 
 - Wood Glue (or equivalent)
-- Designs
+- Designs (TBD)
 
 ## Tools
 - Laser Cutter
@@ -29,6 +27,11 @@ This kit consists of two parts: the wooden base and a USB to Serial Adapter (bas
 - Sandpaper 
 
 ## Construction
+1. Cut out the base parts using a laser cutter: 3 pieces in total are needed, 2 upper elements and 1 lower. The lower element needs to be cut out of wood that has a thickness of at least 2.5mm. The thickness of the upper elements can be larger, however the best is to keep it the same as the lower element.
+2. Clean up the parts - if necessary - with a file and sandpaper. Check the holes for the pogo pins if they are nice and open. If not, use a 1mm drill bit to make them clean.
+3. Glue all the parts together. Insert two pogo pins, so the upper elements are perfectly aligned. Clamp the 3 pieces and wait for the glue to dry.
+4.  
+
 
 ## Assembly
 1. Carefully insert the pogo pins (5 pieces) in the designated holes of the wooden jig. Some force is required to insert as the holes are designed to make the pins fit tightly. The bottom end of each pogo pin should stick out slightly from the lower ring (about 0.5 mm).
