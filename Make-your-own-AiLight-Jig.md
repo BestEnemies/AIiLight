@@ -19,6 +19,7 @@ The **AiLight** Jig consists of 3 laser cut rings made out of MDF: 2 upper rings
 - Wood Glue (or equivalent)
 - Designs Files:
   [3D Model](http://a360.co/2rP8FqM) (made with AutoDesk Fusion360)
+  [Lower Component: DXF format](http://a360.co/2szW8da)
 
 ## Tools
 - Laser Cutter
