@@ -34,8 +34,8 @@ The **AiLight** Jig consists of 3 laser cut rings made out of MDF: 2 upper rings
 5. Solder the other end of the wires to the USB/UART adapter. As for the wire colors, you can use the following scheme:
   - 3V3: Red
   - GND: Black
-  - TX: Green
-  - RX: Blue
+  - RX: Green
+  - TX: Blue
   - IO0: Orange/Yellow/White
 
 ![AiLight Pin Positions](images/ailight_jig_positions.png)
