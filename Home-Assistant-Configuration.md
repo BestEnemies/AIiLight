@@ -35,4 +35,4 @@ Lastly, add your Ai-Thinker RGBW Light in a Home Assistant view. For example lik
 
 Restart Home Assistant to load the new configuration. If everything goes according to plan, you should see the light appear in your Home Assistant.
 
-![Home Assistant](https://raw.githubusercontent.com/wiki/stelgenhof/AiLight/images/ailight_ha.png)
+![Home Assistant](images/ailight_ha.png)
