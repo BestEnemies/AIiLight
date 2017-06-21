@@ -30,4 +30,4 @@ This kit consists of two parts: the wooden base and a USB to Serial Adapter (bas
 2. (Optional). You can attach the USB to UART adapter to the wooden base with a glue gun or a piece of double sided tape. 
 To avoid that the adapter might move when inserting/removing the USB cable, you can make a small recess on the top. Either use a cutting knife or file to make the appropriate recess.
 
-Your AiLight Jig is now complete! Next, you can start using it to [[flash|Flashing-the-Firmware]] the firmware.
+Your AiLight Jig is now complete! Next, you can start [[connecting|Connection]] it to your light and [[flash|Flashing-the-Firmware]] the firmware.
