@@ -7,3 +7,4 @@ How do we then make such a connection? There are two ways:
 ![Ai-Thinker LED RGBW Light with wires soldered](images/ailight_wires.png)
 
 2. Use an [AiLight Jig](https://www.sachatelgenhof.nl/blog/ailight-jig): this jig is designed specifically for the Ai-Thinker LED RGBW light. It allows for uploading custom firmware without soldering any wires to the light’s PCB IO and test contacts. And, if you have more than one Ai-Thinker LED RGBW light, you can use the jig over and over, saving you a lot of hassle!
+
