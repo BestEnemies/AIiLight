@@ -14,7 +14,7 @@ The **AiLight** Jig consists of 3 laser cut rings made out of MDF: 2 upper rings
 
 ## Ingredients
 - MDF wood about ~2.5mm thick (other types of wood like plywood is also possible)
-- 5 Pogo Pins 
+- 5 Pogo Pins (P75-B1 Spear Head Diameter 1.02mm Spring Load 100gram) 
 - 1 USB to Serial Adapter board (any type should be fine; based on the CP210x chipset is recommended)
 - Electric wires about ~5cm long (AWG24 or AWG26)
 - (Optional) Heat shrink, about ~10mm for each pogo pin 
