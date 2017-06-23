@@ -32,7 +32,7 @@ If no compilation errors popped up, you can start uploading (i.e 'flashing') the
 1. Connect your FTDI Programmer or AiLight Jig to your PC using a Micro USB to USB cable.
 2. Click on the "PlatformIO: Upload icon" (Arrow pointing to the right) or issue a `platform run --target upload` command from the PlatformIO terminal. Uploading should start automatically as PlatformIO will detect the connected Serial Port itself. Alternatively, you can manually specify in the `platformio.ini` or at the command line which serial port you want use.
 
-_**Note**: If you have trouble making a connection, check if PlatformIO can detect your adapter by clicking "List Serial Ports" in the "PlatformIO" menu. If not, this usually means your cable is not connected or your FTDI driver is not properly installed._
+_**Note**: If you have trouble making a connection, check if PlatformIO can detect your adapter by clicking "List Serial Ports" in the "PlatformIO" menu. If not, this usually means your cable is not connected or your FTDI driver is not properly installed. (You can also see this information from the command terminal by issuing this command: `pio list devices`)_
 
 If the upload of the **AiLight** firmware was successful, it is recommended restarting your Ai-Thinker RGBW Light. This can be done by reconnecting the power of your FTDI programmer.
 
@@ -41,6 +41,8 @@ While connected to your FTDI programmer, check the output on your Serial Monitor
 ![AiLight](https://www.sachatelgenhof.nl/user/pages/02.blog/ailight/terminal_030.png)
 
 Similar information can be seen in the Web UI (About page). By default, the Web UI can be accessed via 'http://AiLight-######.local' where '#####' is the unique identifier of your Ai-Thinker RGBW Light. If you have changed your hostname, then, of course, the URL is different also.
+
+Your Ai-Thinker RGBW Light is now ready and runs the **AiLight** firmware! Please go ahead and disconnect the FTDI adapter or AiLight Jig and put your Ai-Thinker RGBW Light in your kitchen light, ceiling light, etc. 
 
 ## Flashing the firmware via OTA
 If you passed the previous step successfully, you can upload newer versions of the **AiLight** firmware via **OTA**. So you won't be needing your AiLight Jig or FTDI programmer anymore.
