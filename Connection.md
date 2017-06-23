@@ -24,6 +24,6 @@ _!**Warning**: Please make sure your Ai-Thinker RGBW LED bulb is **not** connect
 5. Press the Jig down so it fits tightly in the aluminum body of the Ai-Thinker Light bulb. Please note that it may take some force to press it in. Due to the natural properties of wood, the jig size might have been slightly increased / decreased (humidity, temperature, etc.)
 6. Attach a Micro USB to USB cable to the adapter and your computer.
 
-Everything is now ready to [[flash|Flashing-the-Light]] the firmware! 
+Everything is now ready to [[flash|Flashing-the-Firmware]] the firmware! 
 
 In case you have noticed that you’re no able to flash the firmware, check above steps again to make sure the pogo pins are properly touching the PCB contacts.
