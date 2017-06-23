@@ -15,8 +15,10 @@ The [AiLight Jig](https://www.sachatelgenhof.nl/blog/ailight-jig) is designed sp
 _If you'd like to use an AiLight Jig, check out more details [here](https://www.sachatelgenhof.nl/blog/ailight-jig). For those who have tinkering skills and access to a laser cutter, follow [[these|Make-your-own-AiLight-Jig]] instructions how to make your own AiLight jig._
 
 ### Using the AiLight Jig
+_!**Warning**: Please make sure your Ai-Thinker RGBW LED bulb is **not** connected to your mains while connecting your FTDI adapter or AiLight Jig._
+  
 1. Before flashing any firmware, please install the CP210x USB to UART driver for your OS first. You can find the drivers and instructions here: [https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
-2. Remove the white, plastic cover from your Ai-Thinker Light bulb. 
+2. Remove the white, plastic cover from your Ai-Thinker RGBW LED bulb. 
 3. Position the assembled Jig on top of the PCB that now is visible. Be careful not to bend or break the antenna in the middle of the PCB.
 4. Align the Jig in such a way that the bottom tips of the pogo pins align with the PCB contact points (GND, RX, TX, etc.). You may need to rotate the Jig until you find the right position. 
 5. Press the Jig down so it fits tightly in the aluminum body of the Ai-Thinker Light bulb. Please note that it may take some force to press it in. Due to the natural properties of wood, the jig size might have been slightly increased / decreased (humidity, temperature, etc.)
