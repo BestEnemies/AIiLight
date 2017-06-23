@@ -7,6 +7,9 @@ Starting with **AiLight** is pretty easy, and you only need a couple of items (a
 * or an **AiLight Jig**. If you feel your soldering skills are not up to par, I have designed a special jig that saves you considerable time. You can find more details here: [AiLight Jig](https://www.sachatelgenhof.nl/blog/ailight-jig)
 
 ## Software
-To build and upload **AiLight** you need to have [PlatformIO](http://platformio.org/) installed on your environment. Optionally, you need to install [NodeJS](https://nodejs.org/en/) in case you would like to compile the embedded Web UI yourself. 
+To build and upload **AiLight** you need to have the following installed on your environment:
+* [PlatformIO](http://platformio.org/)
+* [Git](https://git-scm.com) (If you choose to download the Zip Archive of **AiLight** then you don't need Git)
+* Optionally, you need to install [NodeJS](https://nodejs.org/en/) in case you would like to compile the embedded Web UI yourself. 
 
-Please check their respective websites for installation instructions.
+Please check the respective websites for installation instructions.
