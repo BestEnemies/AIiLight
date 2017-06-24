@@ -7,8 +7,10 @@ To update the **AiLight** firmware via OTA, it is important to make sure that:
 Now you can start using **OTA** to upload any updates of the firmware over the air by either:
 - "Run other target" from the "PlatformIO" menu in Atom, and choose the "PIO Upload dev-ota" or "PIO Upload prod-ota" target, or
 - Using the terminal, executing the command 
+
   `platformio run --target upload --environment %environment% --upload-port=%hostname%`
-  where %environment% is the ota environment ("dev-ota" or "prod-ota") and %hostname% the hostname (or IP address) of your Ai-Thinker RGBW Light bulb.
+  
+where %environment% is the ota environment ("dev-ota" or "prod-ota") and %hostname% the hostname (or IP address) of your Ai-Thinker RGBW Light bulb.
 
 _Checkout the [[Building Environments]] page to understand the preconfigured environments._
 
