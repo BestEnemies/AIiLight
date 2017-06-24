@@ -15,5 +15,6 @@
 
 **Advanced topics**
 * [[Building Environments|]]
+* [[OTA Updates|OTA-Updates]]
 * [[Dependencies|]]
 * [[Make your own AiLight Jig|Make-your-own-AiLight-Jig]]
