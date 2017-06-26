@@ -3,7 +3,7 @@ The AiLight firmware has a feature that allows you to flash the light (i.e switc
 ## How to use
 
 ### 1. Home Assistant
-Using Home Assistant's Automation component, you can have your Ai-Thinker RGBW Light flash by a specified trigger and certain conditions. For example, why not let your Ai-Thinker RGBW Light flash if somebody presses the button of your Smart Doorbell:
+Using Home Assistant's Automation component, you can have your Ai-Thinker LED RGBW light flash by a specified trigger and certain conditions. For example, why not let your Ai-Thinker LED RGBW light flash if somebody presses the button of your Smart Doorbell:
 
 ``` YAML
 automation:
@@ -21,18 +21,18 @@ automation:
           flash: long
           color: [255, 0, 0]
 ```
-This will make your Ai-Thinker RGBW Light flash the colour red for 10 seconds. The 'long' value is a standard Home Assistant value defaults to 10 seconds. There is also a 'short' value which defaults to 5 seconds.
+This will make your Ai-Thinker LED RGBW light flash the colour red for 10 seconds. The 'long' value is a standard Home Assistant value defaults to 10 seconds. There is also a 'short' value which defaults to 5 seconds.
 
 Please check the Home Assistant [Automation](https://home-assistant.io/getting-started/automation/) and [Actions](https://home-assistant.io/docs/automation/action/) documentation pages for more information on how to configure Home Assistant.
 
 ### 2. Using MQTT
-You can alternatively flash your Ai-Thinker RGBW Light by publishing an MQTT message to your MQTT broker. To do that, simply send a JSON message to the MQTT Command Topic set for your Ai-Thinker RGBW Light.
+You can alternatively flash your Ai-Thinker LED RGBW light by publishing an MQTT message to your MQTT broker. To do that, simply send a JSON message to the MQTT Command Topic set for your Ai-Thinker LED RGBW light.
 
 Example:
 ``` JSON
 {"flash":"5", "color": {"r": 255, "g": 0, "b": 0}}
 ```
 
-This will make your Ai-Thinker RGBW Light flash the colour red for 5 seconds.
+This will make your Ai-Thinker LED RGBW light flash the colour red for 5 seconds.
 
-**Note**: at the moment the light alternates between the specified colour and 'off' with an interval of 500ms. These can only be changed by modifying the source code. 
+**Note**: at the moment the light alternates between the specified colour and 'off' with an interval of 500ms. These can only be changed by modifying the source code.
