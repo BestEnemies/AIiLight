@@ -1,4 +1,4 @@
-In stead of immediately switching to a new state, gradually transitioning to the desired state (i.e. colours, brightness, etc.) is possible in the AiLight firmware as well.
+In stead of immediately switching to a new state, gradually transitioning to the desired state (i.e. colours, brightness, etc.) is possible in the **AiLight** firmware as well.
 
 Transitioning will change the light's colours by cross fading from the current to the next state given a specified time:
 

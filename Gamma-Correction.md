@@ -2,7 +2,7 @@ The LED's in your Ai-Thinker LED RGBW light work in a linear way, that if you se
 
 To compensate for this, a process called Gamma Correction can be applied to the LED's light intensity. The correction will make the light's intensity match better how our eyes perceive the intensity of the LED's.
 
-The AiLight firmware contains an option to apply Gamma Correction to your Ai-Thinker LED RGBW light. You can simply enable or disable this option in the 'Light' page of the Web UI.
+The **AiLight** firmware contains an option to apply Gamma Correction to your Ai-Thinker LED RGBW light. You can simply enable or disable this option in the 'Light' page of the Web UI.
 
 ![AiLight - Light Controls](images/ailight_light.png)
 

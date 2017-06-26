@@ -4,20 +4,20 @@ _The instructions below describe the steps how to make an AiLight Jig out of woo
 
 ***
 
-The **AiLight** Jig is designed specifically for the Ai-Thinker LED RGBW light. It allows for uploading custom firmware without soldering any wires to the light’s PCB IO and test contacts. 
+The AiLight Jig is designed specifically for the Ai-Thinker LED RGBW light. It allows for uploading custom firmware without soldering any wires to the light’s PCB IO and test contacts.
 
 ![AiLight Jig](images/ailight_jig.png)
 
-The **AiLight** Jig consists of 3 laser cut rings made out of MDF: 2 upper rings [1] with designated holes for pogo pins, and a lower ring [2] acting as the base that fits snug into the light’s aluminum housing.
+The AiLight Jig consists of 3 laser cut rings made out of MDF: 2 upper rings [1] with designated holes for pogo pins, and a lower ring [2] acting as the base that fits snug into the light’s aluminum housing.
 
 ![AiLight 3D Image](images/ailight_jig_3d.png)
 
 ## Ingredients
 - MDF wood about ~2.5mm thick (other types of wood like plywood is also possible)
-- 5 Pogo Pins (P75-B1 Spear Head Diameter 1.02mm Spring Load 100gram) 
+- 5 Pogo Pins (P75-B1 Spear Head Diameter 1.02mm Spring Load 100gram)
 - 1 USB to Serial Adapter board (any type should be fine; based on the CP210x chipset is recommended)
 - Electric wires about ~5cm long (AWG24 or AWG26)
-- (Optional) Heat shrink, about ~10mm for each pogo pin 
+- (Optional) Heat shrink, about ~10mm for each pogo pin
 - Wood Glue (or equivalent)
 - Designs Files:
   - [3D Model](http://a360.co/2rP8FqM) (made with AutoDesk Fusion360)
@@ -29,7 +29,7 @@ The **AiLight** Jig consists of 3 laser cut rings made out of MDF: 2 upper rings
 - Wood clamps (or similar)
 - Soldering iron
 - File
-- Sandpaper 
+- Sandpaper
 
 ## Construction
 1. Cut out the base parts using a laser cutter: 3 pieces in total are needed, 2 upper elements and 1 lower. The lower element needs to be cut out of wood that has a thickness of at least 2.5mm. The thickness of the upper elements can be larger, however the best is to keep it the same as the lower element.
@@ -50,7 +50,7 @@ The **AiLight** Jig consists of 3 laser cut rings made out of MDF: 2 upper rings
 ## Assembly
 1. Carefully insert the pogo pins (5 pieces) in the designated holes of the wooden jig. Some force is required to insert as the holes are designed to make the pins fit tightly. The bottom end of each pogo pin should stick out slightly from the lower ring (about 0.5 mm).
 
-2. (Optional). You can attach the USB to UART adapter to the wooden base with a glue gun or a piece of double sided tape. 
+2. (Optional). You can attach the USB to UART adapter to the wooden base with a glue gun or a piece of double sided tape.
 To avoid that the adapter might move when inserting/removing the USB cable, you can make a small recess on the top. Either use a cutting knife or file to make the appropriate recess.
 
 Your AiLight Jig is now complete! Next, you can start [[connecting|Connection]] it to your light and [[flash|Flashing-the-Firmware]] the firmware.

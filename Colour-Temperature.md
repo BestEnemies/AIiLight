@@ -1,4 +1,4 @@
-The AiLight firmware includes a nice feature that allows you to set the colour temperature of your Ai-Thinker LED RGBW light.
+The **AiLight** firmware includes a nice feature that allows you to set the colour temperature of your Ai-Thinker LED RGBW light.
 
 ## What is Colour Temperature?
 A way to think of the colour temperature is how 'warm' or 'cool' the white LED light is. Colour temperature is measured in degrees Kelvin and is a measure of the part of the color spectrum that is found in light.
