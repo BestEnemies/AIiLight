@@ -4,7 +4,8 @@
 * [[Flashing the Firmware|Flashing-the-Firmware]]
 
 **Home Assistant**
-* [[Home-Assistant-Configuration|Home-Assistant-Configuration]]
+* [[Configuration|Home-Assistant-Configuration]]
+* [[MQTT Discovery|Home-Assistant-Discovery]]
 
 **Using the Web UI**
 * [[Colour Temperature|Colour-Temperature]]
