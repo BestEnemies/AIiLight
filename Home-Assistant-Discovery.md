@@ -23,7 +23,7 @@ mqtt:
   discovery: true
   discovery_prefix: homeassistant // 'homeassistant' is the default prefix, but can of course be changed
 ```
-  
+
 ### AiLight
 Next step is telling **AiLight** to use MQTT Discovery:
 
@@ -32,7 +32,9 @@ Next step is telling **AiLight** to use MQTT Discovery:
 3. If enabled, an input field for the 'Discovery Prefix' setting will appear. If this is the first time enabling it, it is defaulted to 'homeassistant'. If you like to change this, make sure the `discovery_prefix` setting in Home Assistant is the same (see above).
 4. Press 'Save'
 
-Once saved, **AiLight** will notify your Home Assistant instance about the new light and your Ai-Thinker LED RGBW Light will appear almost instantaneously in Home Assistant. 
+![AiLight - MQTT Discovery](images/ailight_discovery.png)
+
+Once saved, **AiLight** will notify your Home Assistant instance about the new light and your Ai-Thinker LED RGBW Light will appear almost instantaneously in Home Assistant.
 
 Some notes:
 - **AiLight** will remember that your Ai-Thinker LED RGBW Light has been discovered already, so you need to do this configuration only once.
