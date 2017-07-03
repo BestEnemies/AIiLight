@@ -2,6 +2,12 @@
 
 _Since release: **DEV**_
 
+>This release requires that your config.h file needs to be updated with the following constants:
+>- MQTT_HOMEASSISTANT_DISCOVERY_ENABLED
+>- MQTT_HOMEASSISTANT_DISCOVERY_PREFIX
+>
+>If you are upgrading from a previous release, please compare your version of these files to the new config.example.h
+
 If you prefer to have [Home Assistant](https://home-assistant.io/) set up your Ai-Thinker LED RGBW Light automatically, then follow the steps below. **AiLight** supports Home Assistants' [MQTT Discovery](https://home-assistant.io/docs/mqtt/discovery/) functionality, which avoids any manual configuration in Home Assistant.
 
 ### Home Assistant
@@ -32,3 +38,4 @@ Some notes:
 - **AiLight** will remember that your Ai-Thinker LED RGBW Light has been discovered already, so you need to do this configuration only once.
 - **AiLight** will 'forget' the discovery if you change the hostname of your Ai-Thinker LED RGBW Light. This is because the hostname is used as the display name in Home Assistant.
 - If you disable the MQTT discovery, **AiLight** will 'forget' the discovery, however you will see that in Home Assistant your Ai-Thinker LED RGBW Light is still present. This is because Home Assistant performs the discovery on runtime and currently there is no way to notify Home Assistant a device is no longer needed in the configuration. You will need to restart Home Assistant to have your Ai-Thinker LED RGBW Light removed.
+- You can choose your own default discovery prefix by setting it in your 'config.h' file. This is especially convenient if you have many Ai-Thinker LED RGBW Lights you want to be discovered by Home Assistant.
