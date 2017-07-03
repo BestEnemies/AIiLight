@@ -5,7 +5,7 @@
 
 **Home Assistant**
 * [[Configuration|Home-Assistant-Configuration]]
-* [[MQTT Discovery|Home-Assistant-Discovery]]
+* [[MQTT Discovery|Home-Assistant-MQTT-Discovery]]
 
 **Using the Web UI**
 * [[Colour Temperature|Colour-Temperature]]
