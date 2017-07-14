@@ -1,3 +1,5 @@
+![AiLight](images/ailight_logo.png)
+
 _Since release: **v0.4.0**_
 
 In stead of immediately switching to a new state, gradually transitioning to the desired state (i.e. colours, brightness, etc.) is possible in the **AiLight** firmware as well.
