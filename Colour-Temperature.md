@@ -1,3 +1,5 @@
+![AiLight](images/ailight_logo.png)
+
 The **AiLight** firmware includes a nice feature that allows you to set the colour temperature of your Ai-Thinker LED RGBW light.
 
 ## What is Colour Temperature?
