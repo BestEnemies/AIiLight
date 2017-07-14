@@ -1,3 +1,5 @@
+![AiLight](images/ailight_logo.png)
+
 The PlatformIO configuration contains 4 environments for building and flashing your Ai-Thinker LED RGBW light:
 
 - '**env-dev**': development/debug environment for building and uploading the firmware via the AiLight Jig or an USB/UART FTDI (or equivalent) adapter
