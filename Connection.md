@@ -1,7 +1,5 @@
 ![AiLight](images/ailight_logo.png)
 
-***
-
 To be able to upload firmware to your Ai-Thinker LED RGBW light, a connection from your PC to the light must be made. The inner PCB of the light has 5 PCB pads labelled **3V3**, **GND**, **RX**, **TX** and **IO0**. These were most likely used at the factory to flash the factory firmware.
 
 How do we then make such a connection? There are two ways:
