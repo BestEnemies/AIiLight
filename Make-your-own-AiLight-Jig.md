@@ -1,3 +1,5 @@
+![AiLight](images/ailight_logo.png)
+
 Are you up for making your own AiLight Jig? If you have 'making' skills and access to tools and materials, then follow the instructions below. Don't forget to check out your local maker space if you need support of others!
 
 _The instructions below describe the steps how to make an AiLight Jig out of wood and using a laser cutter. You can also easily make one using a 3D Printer._
