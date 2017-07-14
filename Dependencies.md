@@ -1,3 +1,5 @@
+![AiLight](images/ailight_logo.png)
+
 **AiLight** would not be possible without these wonderful libraries:
 
 - [MY9291](https://github.com/xoseperez/my9291) LED driver
