@@ -1,3 +1,5 @@
+![AiLight](images/ailight_logo.png)
+
 The **AiLight** firmware has a feature that allows you to flash the light (i.e switch it on and off at a particular interval). It can only be used by either sending a specific instruction to the MQTT command topic or using the Home Assistant automation component.
 
 ## How to use
