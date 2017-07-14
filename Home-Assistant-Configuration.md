@@ -1,3 +1,5 @@
+![AiLight](images/ailight_logo.png)
+
 Now that the **AiLight** firmware is uploaded, the next step is making your Ai-Thinker LED RGBW light available in [Home Assistant](https://home-assistant.io). To do that, add the following to your `configuration.yaml` file.
 
 MQTT Broker:
