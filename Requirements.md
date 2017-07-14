@@ -1,3 +1,5 @@
+![AiLight](images/ailight_logo.png)
+
 Starting with **AiLight** is pretty easy, and you only need a couple of items (and a bit of spare time)
 
 ## Hardware
