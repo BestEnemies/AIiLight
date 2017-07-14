@@ -1,3 +1,5 @@
+![AiLight](images/ailight_logo.png)
+
 ## Restart
 In case you believe your Ai-Thinker LED RGBW light isn't operating properly, you can restart it by clicking the 'RESTART' button in the right top hand corner of the Web UI.
 
