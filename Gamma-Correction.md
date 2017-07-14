@@ -1,3 +1,5 @@
+![AiLight](images/ailight_logo.png)
+
 _Since release: **v0.3.0**_
 
 The LED's in your Ai-Thinker LED RGBW light work in a linear way, that if you set its level to the maximum it will produce light with the maximum intensity. Likewise, if you set it to 50%, it will produce light with half intensity. Unfortunately, our eyes don't perceive light in a linear way.
