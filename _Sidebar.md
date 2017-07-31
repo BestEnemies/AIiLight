@@ -17,6 +17,7 @@
 * [[Restart and Reset|Restart-&-Reset]]
 
 **Advanced topics**
+* [[REST API|REST-API]]
 * [[Building Environments|]]
 * [[OTA Updates|OTA-Updates]]
 * [[Dependencies|]]
