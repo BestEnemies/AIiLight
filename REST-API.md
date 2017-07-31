@@ -5,9 +5,9 @@ _Since release: **v0.5.0**_
 The **AiLight** firmware has a powerful [RESTful](https://en.wikipedia.org/wiki/Representational_state_transfer) interface, which acts as a simple web service. Use it as your tool for those situations where you don't have/want to use MQTT. This REST API will help you to use your light as you like it, by integrating it into apps, websites or something else.
 
 # Requests
-The **AiLight** REST API accepts requests over HTTP at http://<your_ailight_ip_address_or_hostname_here>/api. All POST requests must use a JSON body with the Content-Type header set to 'application/json'.
+The **AiLight** REST API accepts requests over HTTP at `http://<your_ailight_ip_address_or_hostname_here>/api`. All POST requests must use a JSON body with the Content-Type header set to 'application/json'.
 
-*NOTE: Be aware that TSL/SSL is currently not implemented, meaning all traffic is transmitted unencrypted!*
+*NOTE: Be aware that TSL/SSL is currently not supported, meaning all traffic is transmitted unencrypted, including your API Key!*
 
 ## Authentication
 The **AiLight** REST API requires an applicative API Key. Your API Key can be found/defined in the settings page of the Web UI. Keep in mind that this key has full control of your light, so please keep it private.
@@ -18,7 +18,7 @@ You can make a request from any app, though how you do that may depend on if you
 
 Example: Get About details
 Request
-curl --header 'API-Key: <your_api_key_here>' http://<your_ailight_ip_address_or_hostname_here>/api/about
+`curl --header 'API-Key: <your_api_key_here>' http://<your_ailight_ip_address_or_hostname_here>/api/about`
 
 Response
 ```JSON
@@ -66,11 +66,10 @@ Example Error Response:
 
 # API Endpoints
 
-## URL   : /api/light
-Method: GET
+## GET /api/light
 Gets the current state of this light, similar as is shown on the 'Light' page in the Web UI.
 
-Response
+### Response
 
 | Field         | Type      | Values       | Description
 |---------------|-----------|--------------|---------------------------------------------------|
@@ -85,11 +84,13 @@ Response
 | `gamma`       | Boolean   | true/false   | Whether Gamma Correction is enabled of the light  |
 
 
-Example
-Request
-curl -X GET http://<your_ailight_ip_address_or_hostname_here>/api/light -H 'API-Key: <your_api_key_here>'
+### Example
 
-Response
+***Request***
+
+`curl -X GET http://<your_ailight_ip_address_or_hostname_here>/api/light -H 'API-Key: <your_api_key_here>'`
+
+***Response***
 
 ```JSON
 {
@@ -107,35 +108,36 @@ Response
 }
 ```
 
-## URL   : /api/light
-Method: PATCH
+## PATCH /api/light
 Update your light parameters (e.g. color, brightness, etc.)
 
-
-
-## URL   : /api/about
-Method: GET
+## GET /api/about
 Gets general information about this light and the **AiLight** firmware, similar as is shown on the 'About' page in the Web UI.
 
-Response
-Field               Type        Description
-"app_name" string   The name of this **AiLight** firmware
-"app_version" string Version of the installed **AiLight** firmware
-"build_date": string Date the **AiLight** firmware was built
-"build_time": string Time the **AiLight** firmware was built
-"memory": integer Memory capacity (in bytes)
-"free_heap": integer Available free memory (in bytes),
-"cpu_frequency": integer CPU Speed (in MHz),
-"manufacturer": string the name of the manufacturer of this light
-"model": string the name of this lights' model
-"device_ip": string the assigned IP address of this light
-"mac": string the assigned MAC address of this light
-
-Example
-Request
-curl -X GET http://<your_ailight_ip_address_or_hostname_here>/api/about -H 'API-Key: <your_api_key_here>'
-
 ### Response
+
+| Field           | Type    | Description
+|-----------------|---------|--------------------------------------------------|
+| `app_name`      | String  | The name of this **AiLight** firmware            |
+| `app_version`   | String  | Version of the installed **AiLight** firmware    |
+| `build_date`    | String  | Date the **AiLight** firmware was built/compiled |
+| `build_time`    | String  | Time the **AiLight** firmware was built/compiled |
+| `memory`        | Integer | Memory capacity (in bytes)                       |
+| `free_heap`     | Integer | Available free memory (in bytes)                 |
+| `cpu_frequency` | Integer | CPU Speed (in MHz)                               |
+| `manufacturer`  | String  | The name of the manufacturer of this light       |
+| `model`         | String  | The name of this lights' model                   |
+| `device_ip`     | String  | The assigned IP address of this light            |
+| `mac`           | String  | The assigned MAC address of this light           |
+
+### Example
+
+***Request***
+
+`curl -X GET http://<your_ailight_ip_address_or_hostname_here>/api/about -H 'API-Key: <your_api_key_here>'`
+
+***Response***
+
 ```JSON
 {
   "app_name": "AiLight",
