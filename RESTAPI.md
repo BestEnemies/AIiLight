@@ -2,14 +2,14 @@
 
 _Since release: **v0.5.0**_
 
-The **AiLight** has a powerful RESTful interface, which acts like a simple web service. Use it as your tool for those situations where you don't have/want to use MQTT. The REST API will help you to use your light as you like it, by integrating it into apps, websites or something else.
+The **AiLight** firmware has a powerful [RESTful](https://en.wikipedia.org/wiki/Representational_state_transfer) interface, which acts as a simple web service. Use it as your tool for those situations where you don't have/want to use MQTT. This REST API will help you to use your light as you like it, by integrating it into apps, websites or something else.
 
-## Requests
+# Requests
 The **AiLight** REST API accepts requests over HTTP at http://<your_ailight_ip_address_or_hostname_here>/api. All POST requests must use a JSON body with the Content-Type header set to 'application/json'.
 
 *NOTE: Be aware that TSL/SSL is currently not implemented, meaning all traffic is transmitted unencrypted!*
 
-### Authentication
+## Authentication
 The **AiLight** REST API requires an applicative API Key. Your API Key can be found/defined in the settings page of the Web UI. Keep in mind that this key has full control of your light, so please keep it private.
 
 To authenticate for the API, use your API Key in the header of your request in the following manner: 'API-Key: <your_api_key_here>'.
