@@ -13,7 +13,8 @@
 * [[Gamma Correction|Gamma-Correction]]
 * [[Transitions|Transition]]
 * [[Restart and Reset|Restart-&-Reset]]
- *
+*  *
+   *
 
 **Advanced topics**
 * [[Building Environments|]]
