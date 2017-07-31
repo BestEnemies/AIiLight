@@ -2,7 +2,7 @@
 
 _Since release: **v0.5.0**_
 
-The **AiLight** firmware has a powerful [RESTful](https://en.wikipedia.org/wiki/Representational_state_transfer) interface, which acts as a simple web service. Use it as your tool for those situations where you don't have/want to use [MQTT](https://en.wikipedia.org/wiki/MQTT). This REST API will help you to use your light as you like it, by integrating it into apps, websites or something else.
+The **AiLight** firmware has a powerful [RESTful](https://en.wikipedia.org/wiki/Representational_state_transfer) interface, which acts as a simple web service. Use it as your tool for those situations where you don't have/want to use [MQTT](https://en.wikipedia.org/wiki/MQTT). This REST API will help you to use your Ai-Thinker LED RGBW light as you like it, by integrating it into apps, websites or something else.
 
 # Requests
 The **AiLight** REST API accepts requests over HTTP at
@@ -47,7 +47,7 @@ You can make a request from any app, though how you do that may depend on if you
 ```
 
 ## Responses
-Responses are always returned in JSON format, except for responses related to the HTTP status codes 404 and 405: these do not contain an HTTP body. Keys are either present with a non-empty value, or entirely absent from the response. Empty values are: null, false, "", [], and {}.
+Responses are always returned in JSON format, except for responses related to the HTTP status codes 404 and 405: these do not contain an HTTP body. Keys are either present with a non-empty value or entirely absent from the response. Empty values are: null, false, "", [], and {}.
 
 ## HTTP Status Codes
 - `200 OK`: Everything worked as expected.
