@@ -8,13 +8,13 @@
 * [[MQTT Discovery|Home-Assistant-MQTT-Discovery]]
 
 **Using the Web UI**
-* [[Colour Temperature|Colour-Temperature]]
-* [[Flashing the Light|Flashing-the-Light]]
-* [[Gamma Correction|Gamma-Correction]]
-* [[Transitions|Transition]]
+* Light
+  * [[Colour Temperature|Colour-Temperature]]
+  * [[Flashing the Light|Flashing-the-Light]]
+  * [[Gamma Correction|Gamma-Correction]]
+  * [[Transitions|Transition]]
+* Settings
 * [[Restart and Reset|Restart-&-Reset]]
-*  *
-   *
 
 **Advanced topics**
 * [[Building Environments|]]
