@@ -11,8 +11,9 @@
 * [[Colour Temperature|Colour-Temperature]]
 * [[Flashing the Light|Flashing-the-Light]]
 * [[Gamma Correction|Gamma-Correction]]
-* [[Restart and Reset|Restart-&-Reset]]
 * [[Transitions|Transition]]
+* [[Restart and Reset|Restart-&-Reset]]
+ *
 
 **Advanced topics**
 * [[Building Environments|]]
