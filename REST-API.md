@@ -42,7 +42,7 @@ Responses are always returned in JSON format. Keys are either present with a non
 
     Some responses no body: 404, 405
 
-### HTTP Status Codes
+## HTTP Status Codes
 200 OK: Everything worked as expected.
 400 Bad Request: Usually this results from missing a required parameter or header.
 401 Unauthorized: No valid API Key provided.    
@@ -51,7 +51,7 @@ Responses are always returned in JSON format. Keys are either present with a non
 405 Method Not Allowed: The requested HTTP method is not available for the requested item
 ....
 
-### Errors
+## Errors
 Error responses (any non-200 error code) may contain information on the kind of error that happened. The response JSON may have the following fields:
 - error: A machine-readable code, same as the HTTP status code (e.g. 400, 401, etc.)
 - message: A human-readable error message.
@@ -64,9 +64,9 @@ Example Error Response:
 }
 ```
 
-## API Endpoints
+# API Endpoints
 
-###URL   : /api/light
+## URL   : /api/light
 Method: GET
 Gets the current state of this light, similar as is shown on the 'Light' page in the Web UI.
 
@@ -107,13 +107,13 @@ Response
 }
 ```
 
-### URL   : /api/light
+## URL   : /api/light
 Method: PATCH
 Update your light parameters (e.g. color, brightness, etc.)
 
 
 
-### URL   : /api/about
+## URL   : /api/about
 Method: GET
 Gets general information about this light and the **AiLight** firmware, similar as is shown on the 'About' page in the Web UI.
 
@@ -135,7 +135,7 @@ Example
 Request
 curl -X GET http://<your_ailight_ip_address_or_hostname_here>/api/about -H 'API-Key: <your_api_key_here>'
 
-Response
+### Response
 ```JSON
 {
   "app_name": "AiLight",
