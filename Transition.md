@@ -46,4 +46,6 @@ Example:
 {"state": "ON", "transition":"5", "color": {"r": 255, "g": 255, "b": 0}}
 ```
 
+`mosquitto_pub -h <your_mqtt_broker> -t <your_ailight_command_topic> -m '{"state": "ON", "transition":"5", "color": {"r": 255, "g": 255, "b": 0}}'`
+
 This will make your Ai-Thinker LED RGBW light switch on, gradually changing it's colour to yellow in 5 seconds.
