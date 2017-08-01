@@ -35,6 +35,8 @@ Example:
 {"flash":"5", "color": {"r": 255, "g": 0, "b": 0}}
 ```
 
+Using mosquitto_pub:
+
 `mosquitto_pub -h <your_mqtt_broker> -t <your_ailight_command_topic> -m '{"flash":"5", "color": {"r": 255, "g": 0, "b": 0}}'`
 
 This will make your Ai-Thinker LED RGBW light flash the colour red for 5 seconds.
