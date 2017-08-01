@@ -29,6 +29,8 @@ Example:
 {"state":"ON","color_temp":370}
 ```
 
+Using mosquitto_pub:
+
 `mosquitto_pub -h <your_mqtt_broker> -t <your_ailight_command_topic> -m '{"state":"ON","color_temp":370}'`
 
 This will turn on your Ai-Thinker LED RGBW light with a colour temperature of about 2700K (370 mired ~ 2700K).
