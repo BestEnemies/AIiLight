@@ -5,7 +5,7 @@ To be able to upload firmware to your Ai-Thinker LED RGBW light, a connection fr
 How do we then make such a connection? There are two ways:
 
 ## Wires
-Solder wires to the 5 PCB pads and connect these wires to your USB/UART FTDI (or equivalent) adapter. Xose Pérez has written an excellent [article](http://tinkerman.cat/ailight-hackable-rgbw-light-bulb/) on his blog how you can make such a connection, and upload your own firmware.
+Solder wires to the 5 PCB pads and connect these wires to your USB/UART (or equivalent) adapter. Xose Pérez has written an excellent [article](http://tinkerman.cat/ailight-hackable-rgbw-light-bulb/) on his blog how you can make such a connection, and upload your own firmware.
 
 ![Ai-Thinker LED RGBW light with wires soldered](images/ailight_wires.png)
 
@@ -17,7 +17,7 @@ The [AiLight Jig](https://www.sachatelgenhof.nl/blog/ailight-jig) is designed sp
 _If you'd like to use an AiLight Jig, check out more details [here](https://www.sachatelgenhof.nl/blog/ailight-jig). For those who have tinkering skills and access to a laser cutter, follow [[these|Make-your-own-AiLight-Jig]] instructions how to make your own AiLight jig._
 
 ### Using the AiLight Jig
-_!**Warning**: Please make sure your Ai-Thinker LED RGBW light is **not** connected to your mains while connecting your USB/UART FTDI (or equivalent) adapter or AiLight Jig._
+_!**Warning**: Please make sure your Ai-Thinker LED RGBW light is **not** connected to your mains while connecting your USB/UART (or equivalent) adapter or AiLight Jig._
 
 1. Before flashing any firmware, please install the CP210x USB to UART driver for your OS first. You can find the drivers and instructions here: [https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
 2. Remove the white, plastic cover from your Ai-Thinker LED RGBW light.

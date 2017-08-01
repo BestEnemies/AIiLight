@@ -1,6 +1,6 @@
 ![AiLight](images/ailight_logo.png)
 
-Once you have [[flashed|Flashing-the-Firmware]] your Ai-Thinker LED RGBW light, you can upload newer versions of the **AiLight** firmware via **OTA** (Over The Air) using PlatformIO without your AiLight Jig or USB/UART FTDI (or equivalent) adapter.
+Once you have [[flashed|Flashing-the-Firmware]] your Ai-Thinker LED RGBW light, you can upload newer versions of the **AiLight** firmware via **OTA** (Over The Air) using PlatformIO without your AiLight Jig or USB/UART (or equivalent) adapter.
 
 To update the **AiLight** firmware via OTA, it is important to make sure that:
 - the `upload_port` variable in your `platformio.ini` configuration file matches the 'hostname' value from the Serial Monitor / Web UI.
