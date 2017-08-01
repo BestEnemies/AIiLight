@@ -22,6 +22,8 @@ To authorize for the API, use your API Key in the header of your request in the 
 
 You can make a request from any app, though how you do that may depend on if you are writing a script or using a programming language. If you have a terminal and the [cURL](https://curl.haxx.se/) utility, you can perform requests from the command line. In this Wiki, all examples are demonstrated with the curl utility.
 
+*NOTE: If you haven't set an API Key yet, the API Key is default set to the ADMIN_PASSWORD variable from your config.h file (which is by default set to 'hinotori')*
+
 ### Example: About Details
 
 ***Request***
