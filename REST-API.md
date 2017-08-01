@@ -1,6 +1,6 @@
 ![AiLight](images/ailight_logo.png)
 
-_Since release: **v0.5.0**_
+_Since release: **v0.4.1-dev**_
 
 The **AiLight** firmware has a powerful [RESTful](https://en.wikipedia.org/wiki/Representational_state_transfer) interface, which acts as a simple web service. Use it as your tool for those situations where you don't have/want to use [MQTT](https://en.wikipedia.org/wiki/MQTT). This REST API will help you to use your Ai-Thinker LED RGBW light as you like it, by integrating it into apps, websites or something else.
 
@@ -14,7 +14,7 @@ All POST requests must use a [JSON](https://en.wikipedia.org/wiki/JSON) body wit
 *NOTE: Be aware that TSL/SSL is currently not supported, meaning all traffic is transmitted unencrypted, including your API Key!*
 
 ## Authentication
-The **AiLight** REST API requires an API Key in order to access it. Your API Key can be found/defined in the settings page of the Web UI. Keep in mind that this key has full control of your light, so please keep it private.
+The **AiLight** REST API requires an API Key in order to access it. Your API Key can be found/defined in the settings page of the Web UI. Keep in mind that this key allows full control of your light, so please keep it private.
 
 To authenticate for the API, use your API Key in the header of your request in the following manner:
 
@@ -53,7 +53,6 @@ Responses are always returned in JSON format, except for responses related to th
 - `200 OK`: Everything worked as expected.
 - `400 Bad Request`: Usually this results from missing a required parameter or header.
 - `401 Unauthorized`: No valid API Key provided.    
-- //`403 Forbidden`: The API Key is not valid for that Request
 - `404 Not Found`: The requested item doesn't exist
 - `405 Method Not Allowed`: The requested HTTP method is not available for the requested item
 
@@ -115,7 +114,34 @@ Gets the current state of this light, similar as is shown on the 'Light' page in
 ```
 
 ## PATCH /api/light
-Update your light parameters (e.g. color, brightness, etc.)
+Update your light parameters (e.g. color, brightness, etc.). By using the same JSON message structure as is returned when calling `GET /api/light`, you can control your light (See above for details).
+
+### Example
+
+***Request***
+
+`curl -X PATCH
+   http://<your_ailight_ip_address_or_hostname_here>/api/light
+   -H 'API-Key: <your_api_key_here>'
+   -d '{"brightness": 36, "state": "ON"}'
+   `
+   
+***Response***
+
+```JSON
+{
+  "state": "ON",
+  "brightness": 36,
+  "white_value": 10,
+  "color_temp": 370,
+  "color": {
+      "r": 128,
+      "g": 0,
+      "b": 56
+   },
+  "gamma": false
+}
+```
 
 ## GET /api/about
 Gets general information about this light and the **AiLight** firmware, similar as is shown on the 'About' page in the Web UI.
