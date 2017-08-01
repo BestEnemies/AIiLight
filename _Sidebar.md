@@ -7,7 +7,7 @@
 * [[Configuration|Home-Assistant-Configuration]]
 * [[MQTT Discovery|Home-Assistant-MQTT-Discovery]]
 
-**Using the Web UI**
+**Using the Firmware**
 * Light
   * [[Colour Temperature|Colour-Temperature]]
   * [[Flashing the Light|Flashing-the-Light]]

@@ -13,10 +13,10 @@ All POST requests must use a [JSON](https://en.wikipedia.org/wiki/JSON) body wit
 
 *NOTE: Be aware that TSL/SSL is currently not supported, meaning all traffic is transmitted unencrypted, including your API Key!*
 
-## Authentication
+## Authorization
 The **AiLight** REST API requires an API Key in order to access it. Your API Key can be found/defined in the settings page of the Web UI. Keep in mind that this key allows full control of your light, so please keep it private.
 
-To authenticate for the API, use your API Key in the header of your request in the following manner:
+To authorize for the API, use your API Key in the header of your request in the following manner:
 
 `'API-Key: <your_api_key_here>'`
 
@@ -82,7 +82,7 @@ Gets the current state of this light, similar as is shown on the 'Light' page in
 | `state`       | Integer   | "ON"/"OFF"   | The current state of the light                    |
 | `brightness`  | Integer   | 0-255        | The brightness level of the light                 |
 | `white_value` | Integer   | 0-255        | The level of the White LED's of the light         |
-| `color_temp`  | Integer   | 0-500        | The color temperature of the ligh (in Mired)      |
+| `color_temp`  | Integer   | 153-500      | The color temperature of the ligh (in Mired)      |
 | `color`       | Object    | -            | An object with the below RGB values               |
 | `color.r`     | Integer   | 0-255        | The red color level of the light                  |
 | `color.g`     | Integer   | 0-255        | The green color level of the light                |
@@ -125,7 +125,7 @@ Update your light parameters (e.g. color, brightness, etc.). By using the same J
    -H 'API-Key: <your_api_key_here>'
    -d '{"brightness": 36, "state": "ON"}'
    `
-   
+
 ***Response***
 
 ```JSON
