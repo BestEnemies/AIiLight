@@ -45,6 +45,7 @@ Example:
 ``` JSON
 {"state": "ON", "transition":"5", "color": {"r": 255, "g": 255, "b": 0}}
 ```
+Using mosquitto_pub:
 
 `mosquitto_pub -h <your_mqtt_broker> -t <your_ailight_command_topic> -m '{"state": "ON", "transition":"5", "color": {"r": 255, "g": 255, "b": 0}}'`
 
