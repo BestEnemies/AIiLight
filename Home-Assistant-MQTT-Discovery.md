@@ -1,6 +1,6 @@
 ![](images/ailight_logo.png)
 
-_Since release: **DEV**_
+_Since release: **v0.4.1-dev**_
 
 >This release requires that your config.h file needs to be updated with the following constants:
 >- MQTT_HOMEASSISTANT_DISCOVERY_ENABLED
