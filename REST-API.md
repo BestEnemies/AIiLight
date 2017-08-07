@@ -2,6 +2,11 @@
 
 _Since release: **v0.4.1-dev**_
 
+>If you're upgrading from a previous release, your config.h file needs to be updated with the following constant:
+>- REST_API_ENABLED
+>
+>Please compare your version of these files to the new config.example.h
+
 The **AiLight** firmware has a powerful [RESTful](https://en.wikipedia.org/wiki/Representational_state_transfer) interface, which acts as a simple web service. Use it as your tool for those situations where you don't have/want to use [MQTT](https://en.wikipedia.org/wiki/MQTT). This REST API will help you to use your Ai-Thinker LED RGBW light as you like it, by integrating it into apps, websites or something else.
 
 # Requests
