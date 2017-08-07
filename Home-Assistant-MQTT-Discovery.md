@@ -2,11 +2,11 @@
 
 _Since release: **v0.4.1-dev**_
 
->This release requires that your config.h file needs to be updated with the following constants:
+>If you're upgrading from a previous release, your config.h file needs to be updated with the following constants:
 >- MQTT_HOMEASSISTANT_DISCOVERY_ENABLED
 >- MQTT_HOMEASSISTANT_DISCOVERY_PREFIX
 >
->If you are upgrading from a previous release, please compare your version of these files to the new config.example.h
+>Please compare your version of these files to the new config.example.h
 
 If you prefer to have [Home Assistant](https://home-assistant.io/) set up your Ai-Thinker LED RGBW Light automatically, then follow the steps below. **AiLight** supports Home Assistants' [MQTT Discovery](https://home-assistant.io/docs/mqtt/discovery/) functionality, which avoids any manual configuration in Home Assistant.
 
