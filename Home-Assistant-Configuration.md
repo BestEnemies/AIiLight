@@ -1,6 +1,6 @@
 ![AiLight](images/ailight_logo.png)
 
-Now that the **AiLight** firmware is uploaded, the next step is making your Ai-Thinker LED RGBW light available in [Home Assistant](https://home-assistant.io). To do that, add the following to your `configuration.yaml` file.
+Now that the **AiLight** firmware is uploaded, the next step is making your Ai-Thinker LED RGBW light available in [Home Assistant](https://home-assistant.io). To do that, add the following to your `configuration.yaml` file. (In case you are using the MQTT Discovery option, you can skip this step).
 
 MQTT Broker:
 
@@ -28,6 +28,14 @@ light:
   effect: false
   optimistic: false
 ```
+
+If you noticed that the state of your Ai-Thinker LED RGBW is not retained after a restart of Home Assistant, make sure to enable this in **AiLight** and Home Assistant, by:
+- Add the `retain: true` to your light's configuration in Home Assistant
+- Set the parameter `MQTT_RETAIN` to true in your **AiLight** 'config.h' file.
+
+(By default, retaining state is not enabled).
+
+
 Lastly, add your Ai-Thinker LED RGBW light in a Home Assistant view. For example like this:
 ```yaml
 group:
