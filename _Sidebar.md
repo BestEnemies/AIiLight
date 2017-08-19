@@ -1,5 +1,6 @@
 **Getting started**
 * [[What do you need?|Requirements]]
+* [[Compatible Lights|Compatible-Light-Bulbs]]
 * [[Connect your Light|Connection]]
 * [[Flashing the Firmware|Flashing-the-Firmware]]
 
