@@ -50,3 +50,16 @@ Using mosquitto_pub:
 `mosquitto_pub -h <your_mqtt_broker> -t <your_ailight_command_topic> -m '{"state": "ON", "transition":"5", "color": {"r": 255, "g": 255, "b": 0}}'`
 
 This will make your Ai-Thinker LED RGBW light switch on, gradually changing it's colour to yellow in 5 seconds.
+
+### 3. Using the REST API
+With the embedded REST API you can control your Ai-Thinker LED RGBW light's features like transitioning. Using the cURL client as an example, send the following command to make the light transition to a new state:
+
+`curl -X PATCH
+   http://<your_ailight_ip_address_or_hostname_here>/api/light
+   -H 'API-Key: <your_api_key_here>'
+   -d '{"state": "ON", "transition":"5", "color": {"r": 255, "g": 255, "b": 0}}'
+   `
+
+This will make your Ai-Thinker LED RGBW light switch on, gradually changing it's colour to yellow in 5 seconds.
+
+Checkout the [[REST API|REST-API]] Wiki page on how to use the embedded REST API.

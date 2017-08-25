@@ -41,4 +41,17 @@ Using mosquitto_pub:
 
 This will make your Ai-Thinker LED RGBW light flash the colour red for 5 seconds.
 
+### 3. Using the REST API
+With the embedded REST API you can control your Ai-Thinker LED RGBW light's features like flashing. Using the cURL client as an example, send the following command to make the light flash:
+
+`curl -X PATCH
+   http://<your_ailight_ip_address_or_hostname_here>/api/light
+   -H 'API-Key: <your_api_key_here>'
+   -d '{"flash":"5", "color": {"r": 255, "g": 0, "b": 0}}'
+   `
+
+This will make your Ai-Thinker LED RGBW light flash the colour red for 5 seconds.
+
+Checkout the [[REST API|REST-API]] Wiki page on how to use the embedded REST API.
+
 **Note**: at the moment the light alternates between the specified colour and 'off' with an interval of 500ms. These can only be changed by modifying the source code.

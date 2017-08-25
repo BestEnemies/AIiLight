@@ -1,6 +1,6 @@
 ![AiLight](images/ailight_logo.png)
 
-_Since release: **v0.4.1-dev**_
+_Since release: **v0.5.0**_
 
 >If you're upgrading from a previous release, your config.h file needs to be updated with the following constant:
 >- REST_API_ENABLED
