@@ -130,8 +130,9 @@ Update your light parameters (e.g. color, brightness, etc.). By using the same J
 `curl -X PATCH
    http://<your_ailight_ip_address_or_hostname_here>/api/light
    -H 'API-Key: <your_api_key_here>'
+   -H 'Content-Type: application/json'
    -d '{"brightness": 36, "state": "ON"}'
-   `
+`
 
 ***Response***
 
