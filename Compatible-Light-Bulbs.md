@@ -8,6 +8,10 @@ The table below contains a list of all lights that are known to be compatible wi
 | Unknown       | Unknown       | 7W    | https://detail.tmall.com/item.htm?id=534938034266&toSite=main | Delivery can be difficult to arrange if you're outside China, ended up talking directly to someone from the store via whats app on +86 150 8828 2882 |
 | Expower       | Unknown       | 7W    | https://www.amazon.co.uk/gp/product/B075Q9NHF2/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1 |  |
 | OEM/ODM       | TY-AXK-01     | 9W    | https://www.alibaba.com/product-detail/High-Standard-Colorful-Smartphone-Remote-Control_60576662953.html?spm=a2700.7724838.0.0.jahydM |  |
+| Emwel       | B22     | 7W    | https://www.amazon.co.uk/dp/B078WK7CQW/ref=cm_sw_r_cp_ep_dp_HztTAbMX2TX13 |  |
+
+
+
 
 ## Incompatible Light Bulbs
 Sometimes a light bulb's appearance (or it's product description) can be mistaken to be compatible. Unfortunately it is not always possible to see beforehand if the **AiLight** will work or not. The below table holds a list of light bulbs that are known **not** to be compatible.
