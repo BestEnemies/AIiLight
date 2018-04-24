@@ -15,7 +15,7 @@
   * [[Gamma Correction|Gamma-Correction]]
   * [[Transitions|Transition]]
 * Settings
-* [[Restart and Reset|Restart-&-Reset]]
+* [[Restart and Reset|Restart-and-Reset]]
 
 **Advanced topics**
 * [[REST API|REST-API]]
