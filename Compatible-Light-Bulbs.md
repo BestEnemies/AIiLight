@@ -9,7 +9,7 @@ The table below contains a list of all lights that are known to be compatible wi
 | Expower       | Unknown       | 7W    | https://www.amazon.co.uk/gp/product/B075Q9NHF2/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1 |  |
 | OEM/ODM       | TY-AXK-01     | 9W    | https://www.alibaba.com/product-detail/High-Standard-Colorful-Smartphone-Remote-Control_60576662953.html?spm=a2700.7724838.0.0.jahydM |  |
 | Emwel       | B22     | 7W    | https://www.amazon.co.uk/dp/B078WK7CQW/ref=cm_sw_r_cp_ep_dp_HztTAbMX2TX13 |  |
-
+| Arilux      | E27     | 7W    | https://banggood.app.link/6q1C90KbHF |SKU688664-4KA30 PCK 0828–8335–11903 Z-S-03-21 |
 
 
 
