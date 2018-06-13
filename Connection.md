@@ -14,7 +14,7 @@ The [AiLight Jig](https://www.sachatelgenhof.nl/blog/ailight-jig) is designed sp
 
 ![AiLight Jig](images/ailight_jig.png)
 
-_If you'd like to use an AiLight Jig, check out more details [here](https://www.sachatelgenhof.nl/blog/ailight-jig). For those who have tinkering skills and access to a laser cutter, follow [[these|Make-your-own-AiLight-Jig]] instructions how to make your own AiLight jig._
+_If you'd like to use an AiLight Jig, check out more details [here](https://www.sachatelgenhof.nl/blog/ailight-jig). For those who have tinkering skills, follow [[these|Make-your-own-AiLight-Jig]] instructions how to make your own AiLight jig._
 
 ### Using the AiLight Jig
 _!**Warning**: Please make sure your Ai-Thinker LED RGBW light is **not** connected to your mains while connecting your USB/UART (or equivalent) adapter or AiLight Jig._
