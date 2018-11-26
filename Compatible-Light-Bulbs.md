@@ -19,3 +19,4 @@ Sometimes a light bulb's appearance (or it's product description) can be mistake
 | Brand         | Model        | Power | Link                                       | Notes
 |---------------|--------------|-------|--------------------------------------------|------|
 | LOHAS    | LH-WIFI Color Bulb-9W-E26   | 9W    |     | Uses the MY9231 LED Driver  |
+| S NMT    | Mi-Light 9W RGB+CCT LED Light Bulb   | 9W    | https://www.amazon.com/gp/product/B077TGTLWQ/ref=oh_aui_detailpage_o03_s00?ie=UTF8&th=1 | The exterior looks like the Sonoff B1, however it's using a STM 8S003F3P6 chip inside.  |
