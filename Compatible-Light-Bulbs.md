@@ -11,7 +11,7 @@ The table below contains a list of all lights that are known to be compatible wi
 | Emwel       | B22     | 7W    | https://www.amazon.co.uk/dp/B078WK7CQW/ref=cm_sw_r_cp_ep_dp_HztTAbMX2TX13 |  |
 | Arilux      | E27     | 7W    | https://banggood.app.link/6q1C90KbHF |SKU688664-4KA30 PCK 0828–8335–11903 Z-S-03-21 |
 | Wowfeel      | SilverBulb2     | 7W    | https://www.amazon.com/gp/product/B0769L9FNH/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1 |
-
+| ZemiSmart     | WiFi RGBW Downlight | 10W | http://www.zemismart.com/zemismart-au-type-35-inch-wifi-rgbw-led-downlight-10w-voice-control-by-alexa-echo-google-home-assistant-home-automation-ifttt_p0128.html |
 
 
 
